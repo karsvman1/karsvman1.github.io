@@ -1,0 +1,23 @@
+# Secrets and personal data: never published.
+backend/secrets/
+backend/config.json
+backend/cache/
+backend/logs/
+tools/keystore.pass
+tools/*.keystore
+# Device data: stock Onyx/Storytel firmware, partition dumps, flash logs, extracted ramdisk.
+backup/
+analysis/
+build/
+# Build output and caches.
+android/build/
+android-preview/
+__pycache__/
+# Third-party toolchains and binaries (download them as described in docs/SETUP.md).
+tools/jdk/
+tools/sdk/
+tools/platform-tools/
+tools/rkflashtool/
+tools/*.exe
+# Device screenshots show real calendar, task and birthday data: kept local only.
+docs/device/
